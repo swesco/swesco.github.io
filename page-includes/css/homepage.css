@@ -1,0 +1,337 @@
+.swesco_btn,
+a#logo-container {
+    transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+}
+
+#swesco_jumbo-section {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-20%, -40%);
+    z-index: 9;
+}
+
+.swesco_link-list li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    padding: 0 40px;
+    vertical-align: bottom;
+}
+
+.swesco_link-list {
+    vertical-align: bottom !important;
+}
+
+.swesco_fab-btn {
+    position: absolute;
+    bottom: 5vh;
+    right: calc(5vw - 30px);
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px rgba(20, 20, 20, .385);
+    z-index: 99;
+}
+
+.swesco_btn-fab:hover {
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px rgba(20, 20, 20, .385) inset;
+}
+
+.swesco_btn {
+    border-radius: 4px;
+    box-shadow: none;
+    margin: 0px 10px;
+    min-width: 80% !important;
+    vertical-align: middle !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.swesco_btn:hover {
+    border-radius: 30px;
+    min-width: 90% !important;
+    box-shadow: 5px 10px 20px rgba(20, 20, 20, .2) !important;
+
+}
+
+.swesco_grad-text {
+    background: -webkit-linear-gradient(35deg, rgba(0, 140, 80, 1), rgba(25, 155, 30, 0.975)) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.swesco_grad {
+    background-image: linear-gradient(35deg, #008c50, #119b1e) !important;
+    background-image: linear-gradient(35deg, rgba(0, 140, 80, 1), rgba(25, 155, 30, 0.975)) !important;
+
+}
+
+.swesco_light-overlay {
+    background: linear-gradient(-35deg, rgba(205, 205, 205, 0.75), rgba(245, 245, 245, 0.645)) !important;
+}
+
+.swesco_transparent {
+    background: linear-gradient(60deg, rgba(0, 140, 80, 0.05), rgba(25, 155, 130, 0.05)) !important;
+}
+
+.swesco_transparent-course {
+    background: linear-gradient(35deg, rgba(20, 30, 35, .05), rgba(35, 45, 50, .05)) !important;
+}
+
+
+/**********************************************************************/
+.swesco_light-bg {
+    background-color: #e1e1e1 !important;
+    background: rgba(225, 225, 225, 1) !important;
+}
+
+.swesco_light-text {
+    color: #e1e1e1 !important;
+    color: rgba(225, 225, 225, 1) !important;
+}
+
+.swesco_light-link {
+    color: #e1e1e1 !important;
+    color: rgba(225, 225, 225, 1) !important;
+}
+
+/*********************************************************************/
+.swesco_dark-bg {
+    background-color: #111 !important;
+    background: rgba(17, 17, 17, 1) !important;
+}
+
+.swesco_dark-text {
+    color: #111 !important;
+    color: rgba(17, 17, 17, 1) !important;
+}
+
+.swesco_dark-link {
+    color: #111 !important;
+    color: rgba(17, 17, 17, 1) !important;
+}
+
+.swesco_light-link:hover,
+.swesco_dark-link:hover {
+    text-decoration: underline !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*********************************************************************/
+.swesco_yellow-bg {
+    background-color: #fc0 !important;
+    background: rgba(255, 204, 0, 1) !important;
+}
+
+.swesco_yellow-text {
+    color: #fc0 !important;
+    color: rgba(255, 204, 0, 1) !important;
+}
+
+/*********************************************************************/
+.swesco_amber-bg {
+    background-color: #daae00 !important;
+    background: rgba(218, 174, 0, 1) !important;
+}
+
+.swesco_amber-text {
+    color: #daae00 !important;
+    color: rgba(218, 174, 0, 1) !important;
+}
+
+/*********************************************************************/
+.swesco_green-bg {
+    background-color: #008f0a !important;
+    background: rgba(0, 143, 10, 1) !important;
+}
+
+.swesco_green-text {
+    color: #008c50 !important;
+    color: rgba(0, 140, 80, 1) !important;
+}
+
+/*********************************************************************/
+.swesco_red-bg {
+    background-color: #ed1c24 !important;
+    background: rgba(237, 28, 36, 1) !important;
+}
+
+.swesco_red-text {
+    color: #ed1c24 !important;
+    color: rgba(237, 28, 36, 1) !important;
+}
+
+
+/*********************************************************************/
+.swesco_heading {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: normal;
+}
+
+.swesco_content-sans {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+}
+
+.swesco_content-sans-b {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+}
+
+.swesco_section {
+    padding: 40px 0px 30px 0px !important;
+}
+
+.swesco_fullscreen-video {
+    left: 0;
+    height: 100vh;
+    min-height: 40rem;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.swesco_fullscreen-video video {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.swesco_header {
+    height: 100vh;
+    min-height: 40rem;
+}
+
+.swesco_header-bg {
+    height: 100vh;
+    min-height: 40rem;
+    background-color: #008c50;
+    background: linear-gradient(35deg, rgba(25, 155, 30, 0.9), rgba(0, 140, 80, .985)) !important;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.swesco_header-bg-course {
+    height: 100vh;
+    min-height: 40rem;
+    background-color: #232d32;
+    background: linear-gradient(35deg, rgba(20, 30, 35, 1), rgba(35, 45, 50, .945)) !important;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 16px !important;
+    overflow-x: hidden !important;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    font-size: 14px !important;
+}
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.progress {
+    /*
+    height: 4px;
+    width: 60vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+*/
+    background: linear-gradient(90deg, #edde00, #fc0) !important;
+    /*    margin-top: 0px;*/
+    /*    z-index: 89;*/
+    /*    display: none;*/
+}
+
+div.progress .indeterminate {
+    background-color: #111 !important;
+}
+
+
+
+#mobile-menu li {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+}
+
+#mobile-menu li a {
+    font-size: 18px !important;
+    vertical-align: middle;
+}
+
+#mobile-menu .swesco_heading {
+    padding: 45px 0px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    height: 80px;
+    line-height: 80px;
+}
+
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+    height: 80px;
+    line-height: 80px;
+}
+
+nav .button-collapse i {
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav-wrapper .col .sidenav-trigger i {
+    font-size: 2.75rem;
+}
+
+@media only screen and (min-width: 601px) {
+
+    nav,
+    nav .nav-wrapper i,
+    nav a.button-collapse,
+    nav a.button-collapse i {
+        height: 80px;
+        line-height: 80px;
+    }
+}
